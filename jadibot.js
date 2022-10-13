@@ -37,7 +37,6 @@ const {
   DisconnectReason
 } = require("@adiwajshing/baileys")
 
-
 const ReadFitur = () => {
 	let pathdir = path.join(__dirname, "./command");
 	let fitur = fs.readdirSync(pathdir);
